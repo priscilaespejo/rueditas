@@ -6,7 +6,7 @@ Aquí se gestionan aplicaciones, redes y persistencia mediante archivos `.tf`.
 ---
 # Estructura del Proyecto
 
-r```mermaid
+```mermaid
 graph TD
     rueditas --> apps.tf
     rueditas --> networks.tf
