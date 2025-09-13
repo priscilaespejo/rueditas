@@ -1,6 +1,6 @@
-# Proyecto Rueditas 🚀
+# Proyecto Rueditas 
 
-Este repositorio contiene la definición de infraestructura usando **Terraform**.  
+Este repositorio contiene la definición de infraestructura usando **Terraform**.
 Aquí se gestionan aplicaciones, redes y persistencia mediante archivos `.tf`.
 
 ---
@@ -16,7 +16,8 @@ graph TD
     rueditas --> variables[variables.tf]
     rueditas --> lock[lock.terraform.lock.hcl]
     rueditas --> readme[README.md]
-    
+--
+
 ## Diagrama 2: Arquitectura del Proyecto
 graph TD
     A[Terraform] --> B[Provider Docker]
